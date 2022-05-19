@@ -1,10 +1,18 @@
-// Dependencies
+//DEPENDENCIES
 
+// STATE
 
-// State
+//FUNCTIONS
+//run clock - moment $ set interval
+/**
+ * a function that updates the current time every second
+ *
+ */
+function runClock() {
+  console.log(" runs the clock");
+}
 
-// Functions
+//INTERACTIONS
+// user clicks add project
 
-// User Interactions
-
-// Init
+//INITIALIZATION
