@@ -31,6 +31,8 @@
 
     <!--main-->
     <!--Card aligned left with instructions <P> tag-->
+    <div class="row">
+    <div class="col-lg-3">
     <div class="card" style="width: 18rem">
       <img src="..." class="card-img-top" alt="..." />
       <div class="card-body">
@@ -50,6 +52,8 @@
         <a href="#" class="card-link">Add project</a>
       </div>
     </div>
+    </div>
+        
     <!--project name, project type, due date, hourly rate-->
     <!--add project button pushes to a pop out-->
     <!--event listener-->
@@ -62,6 +66,43 @@
     <!--list-->
     <!--will have to register info from the form-->
     <!--remove button for the table-->
+    <div class="col-lg-9">
+    <table class="table table-bordered">
+        <thead>
+          <tr class="table-danger">
+            <th scope="col">Project Name</th>
+            <th scope="col">Project Type</th>
+            <th scope="col">Hourly Rate ($)</th>
+            <th scope="col">Due Date</th>
+            <th scope="col">Days Until Due Date</th>
+            <th scope="col">Potential Total Earnings($)</th>
+            <th scope="col"></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>x</td>
+            <td>y</td>
+            <td>z</td>
+            <td>x</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+            <td>x</td>
+            <td>y</td>
+            <td>z</td>
+           </tr>
+          
+        </tbody>
+      </table>
+    </div>  
+    </div>
 
     <script
       src="https://code.jquery.com/ui/1.13.1/jquery-ui.min.js"
