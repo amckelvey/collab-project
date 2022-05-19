@@ -16,9 +16,59 @@
         </div>
       </div>
 
+      <div class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Add a new project/h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                      <label for="inputprojectname">Project name</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter the project's name">
+                    </div>
+                    <div class="form-group">
+                      <label for="inputprojecttype">Project type</label>
+                      <select id="projecttype" class="form-control" id="exampleInputProjecttype" placeholder="pick one">
+                        <option>30</option>
+                        <option>40</option>
+                        <option>50</option>
+                        <option>60</option>
+                      </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputhourlyrate">Hourly Rate ($) </label>
+                        <select id="hourlyrate" class="form-control">
+                          <option selected>30</option>
+                          <option>40</option>
+                          <option>50</option>
+                          <option>60</option>
+                        </select>
+                      </div>
+                    <div class="form-group">
+                        <label for="inputduedate">Due date</label>
+                        <input type="duedate" class="form-control" id="exampleInputduedate" placeholder="When is the due date?">
+                    </div>
+                   
+                   
+                  </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary">Submit project info--</button>
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
     <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.min.js" integrity="sha256-eTyxS0rkjpLEo16uXTS0uVCS4815lc40K2iVpWDvdSY=" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="./assets/script.js"></script>
+
+
 </body>
 </html>
 
