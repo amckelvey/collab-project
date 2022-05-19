@@ -1,18 +1,25 @@
 //DEPENDENCIES
 
+
 // STATE
+var today = moment();
+$("#currentDay").text(today.format("dddd, MMMM Do YYYY, h:mm:ss a"));
+
 
 //FUNCTIONS
-//run clock - moment $ set interval
-/**
- * a function that updates the current time every second
- *
- */
-function runClock() {
-  console.log(" runs the clock");
+function updateTime() {
+    var today = moment();
+    $("#currentDay").text(today.format("dddd, MMMM Do YYYY, h:mm:ss a"));
 }
+
+setInterval(function() {
+    updateTime();
+}, 1000);
+
+
 
 //INTERACTIONS
 // user clicks add project
 
 //INITIALIZATION
+updateTime();
